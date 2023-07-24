@@ -1,0 +1,218 @@
+@import '../../common/variables.scss';
+
+.header {
+    background-color: $color-principal;
+    border-bottom: $color-secundario 10px solid;
+
+    &__container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1260px;
+    }
+
+    &__title {
+        font-family: $fuente-titulos;
+        color: $color-secundario;
+        text-align: center;
+        font-style: italic;
+        padding: 10px;
+
+        &:hover {
+            color: $color-fondo;
+        }
+    }
+
+    &__nav {
+        z-index: 100;
+
+        &-items {
+            list-style: none;
+            display: inline-block;
+            padding: 8px;
+            transition: all 0.5s;
+
+            &:hover {
+                background: #943525;
+                transform: scale(1.3, 1.3);
+            }
+
+            &-link {
+                font-family: "Playfair Display", serif;
+                padding: 10px;
+                color: #ffc07f;
+
+                &:hover {
+                    color: #eee;
+                }
+            }
+
+            &-icon {
+                list-style: none;
+                display: inline-block;
+                padding: 8px;
+                transition: all 0.5s;
+
+                &:hover {
+                    transform: scale(1.3, 1.3);
+                }
+            }
+        }
+    }
+}
+
+// /*Menú hamburguesa*/
+// .abrir,
+// .cerrar {
+//     display: block;
+//     position: absolute;
+//     top: 20px;
+//     right: 20px;
+//     text-align: right;
+// }
+
+// #nav {
+//     display: block;
+//     position: fixed;
+//     top: -100%;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: #A5402D;
+//     z-index: 100;
+//     transition: top 0.5s;
+// }
+
+// #nav ul {
+//     margin-top: 30vh;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// #nav:target {
+//     top: 0;
+// }
+
+// /*Responsive  Tablet*/
+// @media screen and (max-width: 1024px) {
+
+//     /*
+//         nav {
+//             ul{
+//                 li{
+//                     a{
+//                         span{
+//                             display: none;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     */
+//     .contenedor-flex {
+//         flex-direction: column;
+//         margin-bottom: 10px;
+//     }
+
+//     .julian,
+//     .presentacion,
+//     .categorias {
+//         max-width: 50%;
+//     }
+
+//     .contenedor-categorias {
+//         flex-direction: row;
+//     }
+
+//     .contenedor-categorias .categorias {
+//         max-width: 45%;
+//     }
+
+//     iframe {
+//         max-width: 100%;
+//         max-height: 400px;
+//     }
+// }
+
+// /*Responsive  telefonos*/
+// @media screen and (max-width: 760px) {
+//     nav {
+//         text-align: center;
+//         z-index: 100;
+//     }
+
+//     .contenedor-flex {
+//         flex-direction: column;
+//         margin-bottom: 10px;
+//     }
+
+//     .presentacion,
+//     .categorias {
+//         max-width: 100%;
+//     }
+
+//     .julian {
+//         margin: 0 auto;
+//         max-width: 100%;
+//     }
+
+//     .contenedor-categorias {
+//         flex-direction: column;
+//     }
+
+//     .contenedor-categorias .categorias {
+//         max-width: 100%;
+//     }
+
+//     footer .lista {
+//         display: flex;
+//         flex-direction: row;
+//     }
+
+//     .swiper-container,
+//     .swiper-container-initialized,
+//     .swiper-container-horizontal {
+//         z-index: 0;
+//     }
+
+//     /*Formularios*/
+//     fieldset {
+//         padding-right: 20px;
+//     }
+
+//     input,
+//     input.boton {
+//         width: 100%;
+//     }
+
+//     /*Menú hamburguesa*/
+//     .abrir,
+//     .cerrar {
+//         display: block;
+//         position: absolute;
+//         top: 20px;
+//         right: 20px;
+//         text-align: right;
+//     }
+
+//     #nav {
+//         display: block;
+//         position: fixed;
+//         top: -100%;
+//         width: 100vw;
+//         height: 100vh;
+//         background-color: #A5402D;
+//         z-index: 100;
+//         transition: top 0.5s;
+//     }
+
+//     #nav ul {
+//         margin-top: 30vh;
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+//     #nav:target {
+//         top: 0;
+//     }
+// }

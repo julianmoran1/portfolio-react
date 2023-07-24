@@ -1,0 +1,26 @@
+.modal {
+    background-color: white;
+    position: absolute;
+    width: 810px;
+    top: 70px;
+    bottom: 70px;
+    left: calc(50% - 400px);
+    height: 650px;
+    border: 1px solid #A5402D;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+    &__close-icon {
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        width: 20px;
+        height: auto;
+    }
+
+    &__iframe {
+        margin: 0 auto;
+    }
+}

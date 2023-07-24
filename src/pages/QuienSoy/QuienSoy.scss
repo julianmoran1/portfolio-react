@@ -1,0 +1,16 @@
+@import '../../common/variables.scss';
+@import '../../common/tags.scss';
+
+.quien-soy {
+    display: flex;
+    max-width: 1260px;
+    padding: 20px 0;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__hero-image {
+        width: 100%;
+        max-width: 25%;
+        height: auto;
+    }
+}

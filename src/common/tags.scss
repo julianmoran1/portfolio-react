@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-fondo;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: $color-secundario;
+    text-align: center;
+    font-style: italic;
+    font-family: $fuente-titulos;
+    padding: 10px;
+}
+
+h2 {
+    @extend h1;
+    color: $color-principal;
+    padding: 10px 0;
+}
+
+h3 {
+    @extend h1;
+    padding: 10px 0;
+    background: $color-principal;
+    border-radius: 8px 8px 0 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+
+    i {
+        font-size: 25px;
+    }
+}

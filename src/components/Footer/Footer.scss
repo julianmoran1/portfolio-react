@@ -1,0 +1,65 @@
+
+.footer {
+    background-color: #222;
+    border-top: 10px solid #555;
+    color: white;
+
+    &__nav {
+        max-width: 1260px;
+        margin: 0 auto;
+
+        &-list {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            list-style-type: none;
+
+
+            &-links {
+                color: white;
+
+
+                &:hover {
+                    color: #777;
+                }
+            }
+        }
+    }
+
+
+    &__social-icon {
+        margin: 15px;
+        color: white;
+
+        &:hover {
+            color: #777;
+        }
+
+    }
+}
+
+
+// nav {
+//     ul {
+//         li {
+//             padding-top: 10px;
+//             background: none;
+
+//             /*Oculta la página de contacto*/
+//             &:nth-child(5) {
+//                 display: none;
+//             }
+
+//             a {
+//                 font-family: $fuente-titulos;
+//                 padding: 10px;
+//                 color: white;
+
+//                 &:hover {
+//                     color: #777;
+//                 }
+//             }
+//         }
+//     }
