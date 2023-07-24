@@ -188,89 +188,91 @@ export const corporativa = [
     text: "Logotipo, Brochure, Roll Up y Acreditación para el Congreso del Comercio Detallista de las Américas",
     alt: "Congreso del Comercio Detallista de las Américas",
     src: "src/images/grafico/corporativa/congreso/acreditacion-congreso.jpg",
-    slides: [
-      {
-        src: "src/images/logos/logo-congreso2019.jpg",
-        alt: "Logo congreso",
-        text: "Logotipo",
-      },
-      {
-        src: "src/images/congreso/acreditacion-congreso.jpg",
-        alt: "Acreditación congreso",
-        text: "Acreditación",
-      },
-      {
-        src: "src/images/congreso/PF8Y3R1_edit.jpg",
-        alt: "Brochure congreso",
-        text: "Brochure",
-      },
-      {
-        src: "src/images/congreso/rollup.jpg",
-        alt: "Roll Up congreso",
-        text: "Roll Up",
-      },
-    ],
+    modalSrc: "https://app.box.com/embed/s/6gs77nf7cibqsgwj0wivp7xc9b6222pc?sortColumn=date"
+    //   slides: [
+    //     {
+    //       src: "src/images/logos/logo-congreso2019.jpg",
+    //       alt: "Logo congreso",
+    //       text: "Logotipo",
+    //     },
+    //     {
+    //       src: "src/images/congreso/acreditacion-congreso.jpg",
+    //       alt: "Acreditación congreso",
+    //       text: "Acreditación",
+    //     },
+    //     {
+    //       src: "src/images/congreso/PF8Y3R1_edit.jpg",
+    //       alt: "Brochure congreso",
+    //       text: "Brochure",
+    //     },
+    //     {
+    //       src: "src/images/congreso/rollup.jpg",
+    //       alt: "Roll Up congreso",
+    //       text: "Roll Up",
+    //     },
+    //   ],
   },
   {
     title: "Pinares de Carrasco",
     text: "Cartelería para supermercado Pinares de Carrasco",
     alt: "Pinares de Carrasco",
     src: "src/images/grafico/corporativa/pinares/logo-pinares.jpg",
-    slides: [
-      {
-        src: "src/images/logos/logo-pinares.jpg",
-        alt: "Logo Pinares de Carrasco",
-        text: "Logotipo",
-      },
-      {
-        src: "src/images/pinares/05_roti.jpg",
-        alt: "Cartelería de Rotisería",
-        text: "Cartelería de Rotisería",
-      },
-      {
-        src: "src/images/pinares/04_panaderia.jpg",
-        alt: "Cartelería de Panadería",
-        text: "Cartelería de Panadería",
-      },
-      {
-        src: "src/images/pinares/original_folleto.png",
-        alt: "Folleto Pinares de Carrasco",
-        text: "Folleto",
-      },
-      {
-        src: "src/images/pinares/imán_original_imprenta.png",
-        alt: "Imán Pinares de Carrasco",
-        text: "Imán",
-      },
-    ],
+    modalSrc: "https://app.box.com/embed/s/b5p985gsdk8t2z17889cagz437ruk6rl?sortColumn=date"
+    // slides: [
+    //   {
+    //     src: "src/images/logos/logo-pinares.jpg",
+    //     alt: "Logo Pinares de Carrasco",
+    //     text: "Logotipo",
+    //   },
+    //   {
+    //     src: "src/images/pinares/05_roti.jpg",
+    //     alt: "Cartelería de Rotisería",
+    //     text: "Cartelería de Rotisería",
+    //   },
+    //   {
+    //     src: "src/images/pinares/04_panaderia.jpg",
+    //     alt: "Cartelería de Panadería",
+    //     text: "Cartelería de Panadería",
+    //   },
+    //   {
+    //     src: "src/images/pinares/original_folleto.png",
+    //     alt: "Folleto Pinares de Carrasco",
+    //     text: "Folleto",
+    //   },
+    //   {
+    //     src: "src/images/pinares/imán_original_imprenta.png",
+    //     alt: "Imán Pinares de Carrasco",
+    //     text: "Imán",
+    //   },
+    // ],
   },
   {
     title: "El Grillito",
     text: "Cartelería para supermercado El Grillito",
     alt: "El Grillito",
     src: "src/images/grafico/corporativa/grillito/logo-grillito.jpg",
-    slides: [
-      {
-        src: "src/images/grafico/corporativa/grilito/logo-grillito.jpg",
-        alt: "Logotipo de Supermercado El Grillito",
-        text: "Logotipo",
-      },
-      {
-        src: "src/images/grillito/ofertas1.jpg",
-        alt: "Cartelería de Ofertas El Grillito",
-        text: "Cartelería de ofertas",
-      },
-      {
-        src: "src/images/grillito/iman.jpg",
-        alt: "Imán El Grillito",
-        text: "Imán",
-      },
-      {
-        src: "src/images/grillito/cartelería_completa.jpg",
-        alt: "Cartelería El Grillito",
-        text: "Cartelería",
-      },
-    ],
+    modalSrc: "https://app.box.com/embed/s/g3zf5xhlx1r81hmutpzynhlzftt8u7yg?sortColumn=date"
+    //   {
+    //     src: "src/images/grafico/corporativa/grilito/logo-grillito.jpg",
+    //     alt: "Logotipo de Supermercado El Grillito",
+    //     text: "Logotipo",
+    //   },
+    //   {
+    //     src: "src/images/grillito/ofertas1.jpg",
+    //     alt: "Cartelería de Ofertas El Grillito",
+    //     text: "Cartelería de ofertas",
+    //   },
+    //   {
+    //     src: "src/images/grillito/iman.jpg",
+    //     alt: "Imán El Grillito",
+    //     text: "Imán",
+    //   },
+    //   {
+    //     src: "src/images/grillito/cartelería_completa.jpg",
+    //     alt: "Cartelería El Grillito",
+    //     text: "Cartelería",
+    //   },
+    // ],
   },
 ];
 
