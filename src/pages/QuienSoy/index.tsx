@@ -7,7 +7,7 @@ const QuienSoy = ({ title }: PageProps) => {
         <h2 className="animate__animated animate__backInDown">{title}</h2>
         <div className="quien-soy">
           <img
-            src="src/images/assets/foto-julian.jpg"
+            src="https://res.cloudinary.com/duzwtwivp/image/upload/v1690245960/images/assets/foto-julian_znhbgt.jpg"
             alt="Julián Morán"
             className="quien-soy__hero-image animate__animated animate__backInLeft"
           />
